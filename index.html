@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page E Ö</title>
+</head>
+<body>
+    <header>
+       <h1>Ece Önder</h1>   
+       <p>Management Information System student</p>    
+    </header>
+
+    <nav>
+        <ul>
+            <li><a herf ="#about">About me</a></li>
+            <li><a herf ="#courses">My courses</a></li>
+            <li><a herf ="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id ="about">
+            <h2>About me heading</h2>
+            <img src="images/photo.png.png"
+            alt="Something about the picture"
+            with="100" height="200"
+            <p>I am a second year student in MIS. I am interested in taking photo</p>
+</section>
+            <section id ="courses">
+            <h2>My courses</h2>
+            <table>
+                <caption>This semester's courses</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Course code</th>
+                        <th scope="col">Course name</th>
+                        <th scope="col">Day</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IMS201</td>
+                        <td>DB</td>
+                        <td>Monday</td>
+                    </tr>
+                    <tr>
+                        <td>IMS207</td>
+                        <td>Web Design</td>
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr>
+                        <td>IMS259</td>
+                        <td>BPA</td>
+                        <td>Friday</td>
+                    </tr>
+                </tbody>
+            </table>
+</section>
+            <section id ="contact"></section>
+            <h2>Contact me</h2>
+            <form action="#" method="post"></form>
+
+            <p><label for="name">Name:</label><input type="text" id="name" name="name" required></p>
+            <p><label for="email">Email:</label><input type="email" id="email" name="email" required></p>
+ <p>
+                    <label for="topic">Topic:</label>
+                    <select id="topic" name="topic">
+                        <option value="general">General question</option>
+                        <option value="photography">Photography</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </section>
+    </main>
+      <footer>
+        <p>&copy; 2026 Ece Önder</p>
+    </footer>
+</body>
+</html>
